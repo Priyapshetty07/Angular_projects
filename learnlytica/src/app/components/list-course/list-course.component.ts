@@ -10,7 +10,9 @@ export class ListCourseComponent implements OnInit {
 
   constructor(private congifs:ConfigService) { }
 
-  myTitle:String="THBS"; //custom pipe
+ myTitle:String="THBS"; //custom pipe
+
+  values:String="100$"; //custom pipe
 
   cList:any;
 

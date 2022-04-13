@@ -24,6 +24,8 @@ import { ListProfilesComponent } from './components/list-profiles/list-profiles.
 import { DetailsProfileComponent } from './components/details-profile/details-profile.component';
 import { ReactiveComponent } from './components/reactive/reactive.component';
 import { TitlePipe } from './pipes/title.pipe';
+import { BracketPipe } from './pipes/bracket.pipe';
+
 //  import {MatSliderModule} from '@angular/material/slider';
 // import {MatDialogModule} from '@angular/material/dialog';
 
@@ -47,6 +49,8 @@ import { TitlePipe } from './pipes/title.pipe';
     DetailsProfileComponent,
     ReactiveComponent,
     TitlePipe,
+    BracketPipe
+  
     
   ],
   imports: [
