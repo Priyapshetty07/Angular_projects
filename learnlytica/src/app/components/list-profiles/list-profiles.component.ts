@@ -31,12 +31,13 @@ export class ListProfilesComponent implements OnInit {
   dataSource = ELEMENT_DATA;
 
   userdata: any;
+  mydata: any;
 
   constructor(private user: UserService) { }
 
   ngOnInit(): void {
     this.userdata = this.user.getUserProfile();
-    this.userdata.subscribe( (data: any) => {this.userdata = data}); 
+    this.userdata.subscribe( (data: any) => {this.mydata = data}); 
 
   }
 }
