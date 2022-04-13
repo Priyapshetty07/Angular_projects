@@ -31,6 +31,8 @@ export class ListProfilesComponent implements OnInit {
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
   dataSource = ELEMENT_DATA;
 
+
+
   userdata: any;
   mydata: any;
 

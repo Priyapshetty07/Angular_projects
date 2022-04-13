@@ -10,6 +10,8 @@ export class ListCourseComponent implements OnInit {
 
   constructor(private congifs:ConfigService) { }
 
+  myTitle:String="THBS"; //custom pipe
+
   cList:any;
 
   ngOnInit(): void {
