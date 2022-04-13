@@ -1,0 +1,215 @@
+<div class="dropdown">
+
+    <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+        aria-expanded="false" style="margin-left: 10%;"> Category</a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+
+        <li><a class="dropdown-item" href="#">Big Data</a></li>
+
+        <li><a class="dropdown-item" href="#"> Cloud Computing</a></li>
+
+        <li><a class="dropdown-item" href="#">DevOps</a></li>
+
+        <li><a class="dropdown-item" href="#"> Machine Learning</a></li>
+
+        <li><a class="dropdown-item" href="#">Microservices</a></li>
+
+        <li><a class="dropdown-item" href="#"> Programming</a></li>
+
+        <li><a class="dropdown-item" href="#">
+                Test your Knowledge</a></li>
+
+        <li><a class="dropdown-item" href="#"> Testing</a></li>
+
+    </ul>
+
+</div>
+<br>
+
+<br>
+
+<div class="container">
+    <div>
+        <div class="row">
+            <div class="col-10">
+                <h1>DevOps</h1>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-outline-dark" data-toggle="button" aria-pressed="false"
+                    autocomplete="off">
+                    View All
+                </button>
+            </div>
+        </div>
+
+        <hr>
+        <div class="row">
+            <div class="col" *ngFor="let course of cList?.['sub-home'].data">
+
+                <app-course-list [imgid]="course._id" [configs]="course['spayee:resource']">
+                </app-course-list>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <!-- //cloud -->
+    <div>
+        <div class="row">
+            <div class="col-10">
+                <h1>Cloud Computing</h1>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-outline-dark" data-toggle="button" aria-pressed="false"
+                    autocomplete="off">
+                    View All
+                </button>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col" *ngFor="let course of clouds?.['sub-home'].data">
+
+                <app-course-list [imgid]="course._id" [configs]="course['spayee:resource']">
+                </app-course-list>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <!-- //app -->
+    <div>
+        <div class="row">
+            <div class="col-10">
+                <h1>App Development</h1>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-outline-dark" data-toggle="button" aria-pressed="false"
+                    autocomplete="off">
+                    View All
+                </button>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col" *ngFor="let course of appdovs?.['sub-home'].data">
+
+                <app-course-list [imgid]="course._id" [configs]="course['spayee:resource']">
+                </app-course-list>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <!-- //machine -->
+    <div>
+        <div class="row">
+            <div class="col-10">
+                <h1>Machin Learning</h1>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-outline-dark" data-toggle="button" aria-pressed="false"
+                    autocomplete="off">
+                    View All
+                </button>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col" *ngFor="let course of mach?.['sub-home'].data">
+
+                <app-course-list [imgid]="course._id" [configs]="course['spayee:resource']">
+                </app-course-list>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <!-- testing -->
+    <div>
+        <div class="row">
+            <div class="col-10">
+                <h1>Software Testing</h1>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-outline-dark" data-toggle="button" aria-pressed="false"
+                    autocomplete="off">
+                    View All
+                </button>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col" *ngFor="let course of test?.['sub-home'].data">
+
+                <app-course-list [imgid]="course._id" [configs]="course['spayee:resource']">
+                </app-course-list>
+            </div>
+        </div>
+    </div>
+  
+    <br><br>
+
+    <!-- big -->
+    <div>
+        <div class="row">
+            <div class="col-10">
+                <h1>Big Data</h1>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-outline-dark" data-toggle="button" aria-pressed="false"
+                    autocomplete="off">
+                    View All
+                </button>
+            </div>
+        </div>
+
+        <hr>
+        <div class="row">
+            <div class="col" *ngFor="let course of bigs?.['sub-home'].data">
+
+                <app-course-list [imgid]="course._id" [configs]="course['spayee:resource']">
+                </app-course-list>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <!-- test-->
+    <div>
+        <div class="row">
+            <div class="col-10">
+                <h1>Test you knowledge</h1>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-outline-dark" data-toggle="button" aria-pressed="false"
+                    autocomplete="off">
+                    View All
+                </button>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col" *ngFor="let course of tests?.['sub-home'].data">
+                <!-- {{course._id | json}} -->
+                <app-course-list [imgid]="course._id" [configs]="course['spayee:resource']">
+                </app-course-list>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<br>

@@ -1,0 +1,109 @@
+{
+    "sub-home": {
+        "data": [
+            {
+                "_id": "61ab3bf80cf211d7abd357aa",
+                "spayee:resource": {
+                    "spayee:title": "Harnessing Data Volume and Velocity",
+                    "spayee:publisher": "Learnlytica",
+                    "spayee:courseUrl": "Harnessing-Data-Volume-and-Velocity",
+                    "spayee:courseType": "normal",
+                    "spayee:coverVersion": 1,
+                    "spayee:language": "English",
+                    "spayee:shortDescription": "",
+                    "spayee:gstRate": 18,
+                    "spayee:mrp": 1399,
+                    "spayee:price": 1299,
+                    "spayee:pricingIncludingTaxes": true,
+                    "spayee:productVariants": [
+                        {
+                            "validityVariants": [
+                                {
+                                    "type": "ONE_TIME",
+                                    "validityType": "none",
+                                    "mrp": 1399,
+                                    "price": 1299,
+                                    "id": "v1-1399-1299",
+                                    "label": "Lifetime"
+                                }
+                            ],
+                            "id": "p1",
+                            "productType": "INR399"
+                        }
+                    ],
+                    "spayee:purchaseType": "cart"
+                }
+            },
+            {
+                "_id": "61addc9b0cf2baabc595d4a4",
+                "spayee:resource": {
+                    "spayee:title": "Data Analysis in Action",
+                    "spayee:publisher": "Learnlytica",
+                    "spayee:courseUrl": "Data-Research-in-Practice",
+                    "spayee:courseType": "normal",
+                    "spayee:language": "English",
+                    "spayee:shortDescription": "",
+                    "spayee:coverVersion": 1,
+                    "spayee:gstRate": 18,
+                    "spayee:mrp": 1599,
+                    "spayee:price": 1499,
+                    "spayee:pricingIncludingTaxes": true,
+                    "spayee:productVariants": [
+                        {
+                            "validityVariants": [
+                                {
+                                    "type": "ONE_TIME",
+                                    "validityType": "none",
+                                    "mrp": 1599,
+                                    "price": 1499,
+                                    "id": "v1-1599-1499",
+                                    "label": "Lifetime"
+                                }
+                            ],
+                            "id": "p1",
+                            "productType": "INR499"
+                        }
+                    ],
+                    "spayee:purchaseType": "cart"
+                }
+            },
+            {
+                "_id": "61b1f6360cf22490abdfb99f",
+                "spayee:resource": {
+                    "spayee:title": "Data Warehousing with Hadoop",
+                    "spayee:publisher": "Learnlytica",
+                    "spayee:courseUrl": "Data-Warehousing-with-Hadoop",
+                    "spayee:courseType": "normal",
+                    "spayee:coverVersion": 1,
+                    "spayee:language": "English",
+                    "spayee:shortDescription": "",
+                    "spayee:gstRate": 18,
+                    "spayee:mrp": 1599,
+                    "spayee:price": 1499,
+                    "spayee:pricingIncludingTaxes": true,
+                    "spayee:productVariants": [
+                        {
+                            "validityVariants": [
+                                {
+                                    "type": "ONE_TIME",
+                                    "validityType": "none",
+                                    "mrp": 1599,
+                                    "price": 1499,
+                                    "id": "v1-1599-1499",
+                                    "label": "Lifetime"
+                                }
+                            ],
+                            "id": "p1",
+                            "productType": "INR599"
+                        }
+                    ],
+                    "spayee:purchaseType": "cart"
+                }
+            }
+        ],
+        "total": 3,
+        "limit": 4,
+        "skip": 0
+    },
+    "response": true
+}

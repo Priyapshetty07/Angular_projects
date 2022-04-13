@@ -1,0 +1,38 @@
+<p>switch works!</p>
+
+<ul>
+    <h2> *ngSwitch Case</h2>
+    <li *ngFor="let item of person" [ngSwitch]="item.city">
+
+        <div *ngSwitchCase="'SHM'" class="text-info"> shimoga...</div>
+
+        <div *ngSwitchCase="'KAL'" class="text-primary">kalasa...</div>
+
+        <div *ngSwitchCase="'UDU'" class="text-success">udupi...</div>
+
+        <div *ngSwitchDefault class="text-danger"> I am not part of any country</div>
+
+    </li>
+</ul>
+
+<ul>
+    <h2>ngStyle with switch case in .ts file</h2>
+    <li *ngFor="let item of person" [ngSwitch]="item.city">
+        <div [ngStyle]="{'color': getColors(item.city)}"> my Name is {{item.name}} , my age is {{item.age}} and I am
+            from {{item.city}}
+        </div>
+    </li>
+</ul>
+
+<ul>
+    <h2> ngClass dynamics</h2>
+    <li *ngFor="let item of person">
+        <div [ngClass]="{
+            'text-primary': item.city === 'SHM',
+            'text-danger': item.city === 'UDU' 
+        }"> my name is {{item.name}}, my age is {{item.age}} and I am from {{item.city}}
+
+        </div>
+
+    </li>
+</ul>

@@ -1,0 +1,29 @@
+<p>list works!</p>
+<app-if></app-if>
+<br>
+<app-switch></app-switch>
+
+<div class="row">
+    <h2  style="text-align: center;">This just loop over array</h2>
+    <div *ngFor="let myelm of [1,2,3,4,5]" class="card col m-3">
+        <img src="./../././../assets/image1.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">hii {{myelm}}</h5>
+	        <h5 class="card-title">welcome {{myelm}}</h5>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <h2 style="text-align: center;">This loop over array of object</h2>
+    <div *ngFor="let myelm of itemList" class="card col m-3">
+        <span *ngIf="myelm.title === 'BEACH'"><h6>wecome to if block</h6></span>
+        <img width="150" height="150" src="{{myelm.imageLink}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{myelm.title}}</h5>
+            <p class="card-text">{{myelm.content}}</p>
+            <a target="_blank" href="{{myelm.link}}" class="btn btn-primary">{{myelm.btnText}}</a>
+        </div>
+    </div>
+</div>

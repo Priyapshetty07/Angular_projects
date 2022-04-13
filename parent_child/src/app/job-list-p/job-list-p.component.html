@@ -1,0 +1,9 @@
+<p>job-list-p works!</p>
+<h1>{{revData | json}}</h1>
+<app-job-c [companyName1]="compName"
+           [domain1]="userDomain"
+           [empId1]="id"
+           
+           (sending)="recivedchild($event)"  
+           >
+</app-job-c>

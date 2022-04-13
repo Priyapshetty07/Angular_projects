@@ -1,0 +1,142 @@
+{
+    "sub-home": {
+        "data": [
+            {
+                "_id": "61c053000cf2300b24e15dd8",
+                "spayee:resource": {
+                    "spayee:title": "AZ - 204 Microsoft Certified: Azure Developer Associate (Practice Test)",
+                    "spayee:publisher": "Learnlytica",
+                    "spayee:courseUrl": "AZ---204",
+                    "spayee:courseType": "normal",
+                    "spayee:coverVersion": 2,
+                    "spayee:language": "English",
+                    "spayee:shortDescription": "",
+                    "spayee:gstRate": 18,
+                    "spayee:mrp": 299,
+                    "spayee:price": 150,
+                    "spayee:pricingIncludingTaxes": true,
+                    "spayee:productVariants": [
+                        {
+                            "validityVariants": [
+                                {
+                                    "type": "ONE_TIME",
+                                    "validityType": "none",
+                                    "mrp": 299,
+                                    "price": 150,
+                                    "id": "v1-299-150",
+                                    "label": "Lifetime"
+                                }
+                            ],
+                            "id": "p1",
+                            "productType": "A100"
+                        }
+                    ],
+                    "spayee:purchaseType": "cart"
+                }
+            },
+            {
+                "_id": "61c063110cf206f6a411a11e",
+                "spayee:resource": {
+                    "spayee:title": "AZ-104 Microsoft Certified: Azure Administrator Associate (Practice Test)",
+                    "spayee:publisher": "Learnlytica",
+                    "spayee:courseUrl": "AZ-104-Microsoft-Certified-Azure-Administrator-Associate-Practice-Test",
+                    "spayee:courseType": "normal",
+                    "spayee:coverVersion": 1,
+                    "spayee:language": "English",
+                    "spayee:shortDescription": "",
+                    "spayee:gstRate": 18,
+                    "spayee:mrp": 299,
+                    "spayee:price": 150,
+                    "spayee:pricingIncludingTaxes": true,
+                    "spayee:productVariants": [
+                        {
+                            "validityVariants": [
+                                {
+                                    "type": "ONE_TIME",
+                                    "validityType": "none",
+                                    "mrp": 299,
+                                    "price": 150,
+                                    "id": "v1-299-150",
+                                    "label": "Lifetime"
+                                }
+                            ],
+                            "id": "p1",
+                            "productType": "A100"
+                        }
+                    ],
+                    "spayee:purchaseType": "cart"
+                }
+            },
+            {
+                "_id": "61c065410cf208bbafb3a878",
+                "spayee:resource": {
+                    "spayee:title": "Fundamentals of Cryptography",
+                    "spayee:publisher": "Learnlytica",
+                    "spayee:courseUrl": "Fundamentals-of-Cryptography",
+                    "spayee:courseType": "normal",
+                    "spayee:coverVersion": 1,
+                    "spayee:language": "English",
+                    "spayee:shortDescription": "",
+                    "spayee:gstRate": 18,
+                    "spayee:mrp": 299,
+                    "spayee:price": 150,
+                    "spayee:pricingIncludingTaxes": true,
+                    "spayee:productVariants": [
+                        {
+                            "validityVariants": [
+                                {
+                                    "type": "ONE_TIME",
+                                    "validityType": "none",
+                                    "mrp": 299,
+                                    "price": 150,
+                                    "id": "v1-299-150",
+                                    "label": "Lifetime"
+                                }
+                            ],
+                            "id": "p1",
+                            "productType": "A100"
+                        }
+                    ],
+                    "spayee:purchaseType": "cart"
+                }
+            },
+            {
+                "_id": "61c0698b0cf208bbafb3af59",
+                "spayee:resource": {
+                    "spayee:title": "Fundamentals of AWS",
+                    "spayee:publisher": "Learnlytica",
+                    "spayee:courseUrl": "Fundamentals-of-AWS",
+                    "spayee:courseType": "normal",
+                    "spayee:coverVersion": 1,
+                    "spayee:gstRate": 18,
+                    "spayee:mrp": 299,
+                    "spayee:price": 50,
+                    "spayee:pricingIncludingTaxes": true,
+                    "spayee:productVariants": [
+                        {
+                            "validityVariants": [
+                                {
+                                    "type": "ONE_TIME",
+                                    "validityType": "none",
+                                    "mrp": 299,
+                                    "price": 50,
+                                    "id": "v1-299-50",
+                                    "label": "Lifetime"
+                                }
+                            ],
+                            "id": "p1",
+                            "productType": "A100"
+                        }
+                    ],
+                    "spayee:purchaseType": "cart",
+                    "spayee:language": "English",
+                    "spayee:shortDescription": ""
+                }
+            }
+        ],
+        "total": 10,
+        "limit": 4,
+        "skip": 0
+    },
+    "response": true
+}
