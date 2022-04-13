@@ -25,6 +25,7 @@ import { DetailsProfileComponent } from './components/details-profile/details-pr
 import { ReactiveComponent } from './components/reactive/reactive.component';
 import { TitlePipe } from './pipes/title.pipe';
 import { BracketPipe } from './pipes/bracket.pipe';
+import { ThbsBackgroundDirective } from './directives/thbs-background.directive';
 
 //  import {MatSliderModule} from '@angular/material/slider';
 // import {MatDialogModule} from '@angular/material/dialog';
@@ -49,7 +50,8 @@ import { BracketPipe } from './pipes/bracket.pipe';
     DetailsProfileComponent,
     ReactiveComponent,
     TitlePipe,
-    BracketPipe
+    BracketPipe,
+    ThbsBackgroundDirective
   
     
   ],
