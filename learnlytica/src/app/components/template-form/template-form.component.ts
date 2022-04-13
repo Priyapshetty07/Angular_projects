@@ -7,15 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TemplateFormComponent implements OnInit {
 
-  
+
 
   constructor() { }
 
   ngOnInit(): void {
   }
-
-
-  getFormsValue(fval:any){
+  getFormsValue(fval: any) {
     console.log(fval.value);
   }
 
