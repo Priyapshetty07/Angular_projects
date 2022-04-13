@@ -11,6 +11,7 @@ import { RegisterComponent } from './components/register/register.component';
 import { ServicesComponent } from './components/services/services.component';
 import { DetailsProfileComponent } from './components/details-profile/details-profile.component';
 import { ReactiveComponent } from './components/reactive/reactive.component';
+import { TemplateFormComponent } from './components/template-form/template-form.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -22,7 +23,7 @@ const routes: Routes = [
   {path:'profile',component:ListProfilesComponent},
   { path: 'profile/:pid',  component: DetailsProfileComponent},
   { path: 'rxjs',  component: ReactiveComponent},
-  
+  {path:'template-form', component:TemplateFormComponent},
   { path: '**', component: NotFoundComponent }
   
 ];

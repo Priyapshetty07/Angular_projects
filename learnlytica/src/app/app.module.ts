@@ -14,7 +14,7 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { HomeComponent } from './components/home/home.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { ContactAddressComponent } from './components/contact-address/contact-address.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { HttpClientModule } from '@angular/common/http';
@@ -26,6 +26,7 @@ import { ReactiveComponent } from './components/reactive/reactive.component';
 import { TitlePipe } from './pipes/title.pipe';
 import { BracketPipe } from './pipes/bracket.pipe';
 import { ThbsBackgroundDirective } from './directives/thbs-background.directive';
+import { TemplateFormComponent } from './components/template-form/template-form.component';
 
 //  import {MatSliderModule} from '@angular/material/slider';
 // import {MatDialogModule} from '@angular/material/dialog';
@@ -51,7 +52,8 @@ import { ThbsBackgroundDirective } from './directives/thbs-background.directive'
     ReactiveComponent,
     TitlePipe,
     BracketPipe,
-    ThbsBackgroundDirective
+    ThbsBackgroundDirective,
+    TemplateFormComponent
   
     
   ],
@@ -63,7 +65,8 @@ import { ThbsBackgroundDirective } from './directives/thbs-background.directive'
     BrowserAnimationsModule,
     //  MatSliderModule,
     //  MatDialogModule,
-     MaterialsModule
+     MaterialsModule,
+     FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
