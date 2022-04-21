@@ -4,13 +4,13 @@ var router = express.Router();
 let dbConnection = require('./../db/db').localConnect();
 
 /* GET users listing. */
-router.get('/', function (req, res, next) {
-  // dbConnection.query('SELECT * FROM support.login', (error,results,fields) => {
-  //   if(error) throw error;
-  //   res.send(results);
+router.get('/list', function (req, res, next) {
+  dbConnection.query('SELECT * FROM support.tickets', (error,results,fields) => {
+    if(error) throw error;
+    res.send(results);
 
-  // });
-  res.send('respond with a resource');
+  });
+  // res.send('respond with a resource');
 });
 
 //post methods-login

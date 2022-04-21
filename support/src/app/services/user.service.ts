@@ -9,6 +9,6 @@ export class UserService {
   constructor(private myHttp: HttpClient) { }
 
   getProfiles() {
-    return this.myHttp.get('http://localhost:4200/api/users') //obs
+    return this.myHttp.get('http://localhost:4200/api/users/tickets') //obs
   }
 }
