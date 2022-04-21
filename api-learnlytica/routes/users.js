@@ -46,17 +46,13 @@ let insertcommand = `INSERT INTO user_profile (username, email, password, first_
 
 router.get('/profile', function (req, res, next) {
 
-
-
-  dbConnection.query('SELECT * FROM api_learn.user_profile', (error, results, fields) => {
+dbConnection.query('SELECT * FROM api_learn.user_profile', (error, results, fields) => {
 
     if (error) throw error;
 
     res.send(results);
 
-
-
-  });
+});
 
   //res.send('respond with a resource');
 
