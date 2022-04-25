@@ -58,5 +58,10 @@ dbConnection.query('SELECT * FROM api_learn.user_profile', (error, results, fiel
 
 });
 
+router.post('/contact',function(req,res,next){
+  console.log(req.body);
+  res.send("i am post call");
+});
+
 
 module.exports = router;
