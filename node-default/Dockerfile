@@ -1,7 +1,7 @@
 FROM node:16
-WORKDIR/usr/src/app
+WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
-COPY ..
+COPY . .
 Expose 3000
-CMD["node","./bin/www"]
+CMD ["node","./bin/www"]
