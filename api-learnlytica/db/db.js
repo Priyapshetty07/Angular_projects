@@ -30,21 +30,31 @@
 
 var mysql = require('mysql2');
 
+require('dotenv').config();
+
+
 
 
 let mysqlConnect = function () {
 
     return mysql.createConnection({
 
-        host: 'localhost',
+        // host: 'localhost',
 
-        user: 'root',
+        // user: 'root',
 
-        password: 'PriyaDiya@0713',
+        // password: 'PriyaDiya@0713',
 
-        database: 'api_learn',
+        // database: 'api_learn',
 
-        insecureAuth : true
+        // insecureAuth : true
+
+        host: process.env.DB_HOST,
+        user: process.env.DB_USER,
+        password: process.env.DB_PASSWORD, //should be yours 
+        database: process.env.DB_NAME,
+        port: process.env.DB_PORT,
+        insecureAuth: true
 
     });
 
