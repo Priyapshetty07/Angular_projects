@@ -3,12 +3,6 @@ import logo from '../logo.svg';
 export default function FooterLayout(props) {
     return (
         <>
-            <p> @Copy right at thbs.com</p>
-
-            {/* <button className="btn btn-primary " type="button" >
-                Dropdown button
-            </button> */}
-
             <div className='row'>
                 <div className='col-3'>
                     <div className="card" >
@@ -21,7 +15,6 @@ export default function FooterLayout(props) {
                     </div>
                 </div>
             </div>
-
         </>
     )
 }
