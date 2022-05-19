@@ -98,7 +98,7 @@ export default class FormComponent extends React.Component {
                     <div className="form-group">
                         <label>Name</label>
                         <input type="text" className="form-control" name="name"
-                            onChange={this.formValChange} />
+                            onChange={this.formValChange} required />
 
                         {isError.name.length > 0 && (
                             <span>{isError.name}</span>
@@ -107,7 +107,7 @@ export default class FormComponent extends React.Component {
                     <div className="form-group">
                         <label>Email</label>
                         <input type="email" className="form-control" name="email"
-                            onChange={this.formValChange} />
+                            onChange={this.formValChange} required />
 
                         {isError?.email.length > 0 && (
                             <span >{isError?.email}</span>
@@ -116,7 +116,7 @@ export default class FormComponent extends React.Component {
                     <div className="form-group">
                         <label>Password</label>
                         <input type="text" className="form-control" name="password"
-                            onChange={this.formValChange} />
+                            onChange={this.formValChange} required />
 
                         {isError?.email.length > 0 && (
                             <span >{isError?.password}</span>
